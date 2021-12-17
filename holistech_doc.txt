@@ -1,0 +1,13 @@
+bitly 
+email: josepo123	
+username: josepo2728@kingsready.com
+password: holistech!@#456
+Access token: 895a6e34f3846e6bbc446da04dae96caa64ec72c
+
+
+Registration Code: rhvyfMj0RiCQ4IiAyIokOw
+
+app_name: url_shortner
+
+
+Application link (required): url_shortner
