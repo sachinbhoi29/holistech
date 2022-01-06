@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from url_shortner import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('url_patterns',include('url_shortner.urls'))
-
+    path('url_patterns',include('url_shortner.urls')),
+    path("pastelockly",views.pastelockly, name='pastelockly'),
+    path("viewsecrettext",views.viewsecrettext, name='viewsecrettext'),
 ]
